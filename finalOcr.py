@@ -31,7 +31,7 @@ def extract_information(extracted_text):
     else:
         print(extracted_text)
 
-image_path ="C:\\Users\\agnim\\OneDrive\\Desktop\\WhatsApp Image 2024-10-20 at 17.46.58_4774819c.jpg"
+image_path ="Path to any image"
 
 if os.path.exists(image_path):
     extracted_text = perform_ocr(image_path)
