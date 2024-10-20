@@ -20,6 +20,6 @@ def predict_fruit_condition(image_path):
     prediction = model.predict(image)
     return 'Fresh' if prediction[0][0] < 0.5 else 'Rotten'
 
-test_image_path ="C:\\Users\\agnim\\OneDrive\\Desktop\\download (9).jpeg"
+test_image_path ="Path to any image"
 result = predict_fruit_condition(test_image_path)
 print(f'The fruit is: {result}')
